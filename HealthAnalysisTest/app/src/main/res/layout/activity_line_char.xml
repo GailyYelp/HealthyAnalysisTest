@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           >
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="体温反馈"
+               android:textSize="20sp"
+               android:textColor="@color/crimson"
+               android:gravity="center"
+               android:background="@color/lightgreen"
+               />
+
+           <com.github.mikephil.charting.charts.LineChart
+               android:id="@+id/mLineChar"
+               android:layout_width="match_parent"
+               android:layout_height="350dp"
+               />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="如果平均体温峰值在标准区间之外，请就医！"
+               android:textSize="15sp"
+               android:textColor="@color/black"
+               android:gravity="center"
+               android:background="@color/lightgreen"
+               />
+
+
+           <TextView
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="心率反馈"
+               android:textSize="20sp"
+               android:textColor="@color/crimson"
+               android:gravity="center"
+               android:background="@color/powderblue"
+               />
+
+           <com.github.mikephil.charting.charts.BarChart
+               android:id="@+id/mBarChart"
+               android:layout_width="match_parent"
+               android:layout_height="350dp"
+               />
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="平均心率在65次-90次/分为人体正常状况！"
+               android:textSize="15sp"
+               android:textColor="@color/black"
+               android:gravity="center"
+               android:background="@color/powderblue"
+               />
+
+
+           <TextView
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="血压反馈"
+               android:textSize="20sp"
+               android:textColor="@color/crimson"
+               android:gravity="center"
+               android:background="#d9d9f3"
+               />
+
+           <com.github.mikephil.charting.charts.LineChart
+               android:id="@+id/mDoubleLineChar"
+               android:layout_width="match_parent"
+               android:layout_height="350dp"
+               />
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/xueya"
+               android:textSize="15sp"
+               android:textColor="@color/black"
+               android:gravity="center"
+               android:background="#d9d9f3"
+               />
+
+           <TextView
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="心理反馈"
+               android:textSize="20sp"
+               android:textColor="@color/crimson"
+               android:gravity="center"
+               android:background="#ffb5ba"
+               />
+
+           <com.github.mikephil.charting.charts.PieChart
+               android:id="@+id/mPieChart"
+               android:layout_width="match_parent"
+               android:layout_height="350dp"
+               />
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="保持心理健康是很重要的"
+               android:textSize="15sp"
+               android:textColor="@color/black"
+               android:gravity="center"
+               android:background="#ffb5ba"
+               />
+
+           <TextView
+               android:layout_marginTop="20dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="睡眠反馈"
+               android:textSize="20sp"
+               android:textColor="@color/crimson"
+               android:gravity="center"
+               android:background="#248888"
+               />
+
+           <com.github.mikephil.charting.charts.PieChart
+               android:id="@+id/mPieChart1"
+               android:layout_width="match_parent"
+               android:layout_height="350dp"
+               />
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="拥有良好的睡眠习惯是很重要的"
+               android:textSize="15sp"
+               android:textColor="@color/black"
+               android:gravity="center"
+               android:background="#248888"
+               />
+
+       </LinearLayout>
+
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+
+</LinearLayout>

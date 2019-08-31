@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="gone"
+    android:background="@color/white"
+    >
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@mipmap/wine"
+
+        />
+    
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="310dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="特   征"
+                android:gravity="center"
+                android:textColor="@color/black"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:src="@mipmap/feature"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/feature"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="90dp"
+            android:textColor="#000000"
+            android:text="疲劳;背部或胸部疼痛;呼吸困难;出汗;打鼾;心率不齐"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="#FFFF"
+            />
+        
+    </LinearLayout>
+
+    <View
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="310dp"
+        android:layout_height="0.5dp"
+        android:background="@color/black"
+        />
+    
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/description"
+        android:layout_width="310dp"
+        android:layout_height="160dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:text=""
+        android:background="#FFFF"
+        />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:background="#F7B32D"
+        android:text="更多"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        />
+
+
+
+</LinearLayout>

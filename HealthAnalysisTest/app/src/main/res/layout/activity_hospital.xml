@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HospitalActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="300dp"
+            android:layout_height="450dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="@color/white"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <EditText
+                    android:id="@+id/et_province"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:hint="输入省"
+                    android:background="@drawable/text_view_border"
+                    />
+                <EditText
+                    android:id="@+id/et_city"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:hint="输入市"
+                    android:background="@drawable/text_view_border"
+                    />
+                <EditText
+                    android:id="@+id/et_area"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:hint="输入区"
+                    android:background="@drawable/text_view_border"
+                    />
+
+                <EditText
+                    android:id="@+id/et_page"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:hint="页数"
+                    android:background="@drawable/text_view_border"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+                    <Button
+                        android:id="@+id/btn_hospital_search"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:text="查询"
+                        android:background="@drawable/button_border"
+                        />
+                    <Button
+                        android:id="@+id/btn_hospital_look"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:text="结果"
+                        android:background="@drawable/button_border"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/tv_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

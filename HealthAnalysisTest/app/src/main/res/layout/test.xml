@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar_base" />
+
+   <LinearLayout
+       android:layout_below="@id/include"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       >
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="125dp">
+
+           <ImageView
+               android:layout_centerInParent="true"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+                android:src="@mipmap/icons8_instagram_128"
+               />
+
+       </RelativeLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="65dp"
+           android:orientation="horizontal"
+           >
+
+           <ImageView
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="50dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@mipmap/icon_login_username_1"
+               />
+
+           <android.support.v7.widget.CardView
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="5dp"
+               android:layout_width="210dp"
+               android:layout_height="45dp"
+               app:cardBackgroundColor="@color/white"
+               app:cardCornerRadius="15dp"
+               app:cardElevation="5dp"
+               android:foreground="?attr/selectableItemBackground"
+               android:clickable="true"
+               >
+
+               <TextView
+
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginBottom="8dp"
+                   android:layout_width="190dp"
+                   android:layout_height="40dp"
+                   android:gravity="center"
+                   android:hint="Input Your Username"
+                   />
+
+           </android.support.v7.widget.CardView>
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="65dp"
+           android:orientation="horizontal"
+           >
+
+           <ImageView
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="50dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@mipmap/icons_login_password"
+               />
+
+           <android.support.v7.widget.CardView
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="5dp"
+               android:layout_width="210dp"
+               android:layout_height="45dp"
+               app:cardBackgroundColor="@color/white"
+               app:cardCornerRadius="15dp"
+               app:cardElevation="5dp"
+               android:foreground="?attr/selectableItemBackground"
+               android:clickable="true"
+               >
+
+               <TextView
+
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginBottom="8dp"
+                   android:layout_width="190dp"
+                   android:layout_height="40dp"
+                   android:gravity="center"
+                   android:hint="Input Your Password"
+                   />
+
+           </android.support.v7.widget.CardView>
+
+
+       </LinearLayout>
+
+
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="55dp"
+                android:layout_width="255dp"
+                android:layout_height="45dp"
+                app:cardBackgroundColor="@color/powderblue"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                >
+
+                <Button
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_width="245dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:hint="Login"
+                    android:background="@android:color/transparent"
+                    />
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+
+
+   </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_width="320dp"
+                android:layout_height="130dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@color/whitesmoke"
+                android:layout_gravity="center_horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="90dp"
+                        android:layout_height="130dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="3dp"
+                        app:cardBackgroundColor="@color/white"
+                        >
+
+                        <ImageView
+                            android:id="@+id/iv_1"
+                            android:layout_width="90dp"
+                            android:layout_height="130dp"
+                            android:background="@drawable/text_view_border_8"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/ff1"
+                            />
+
+
+                    </android.support.v7.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:paddingTop="8dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:text="我国首次发布“水碘地图”"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:text="碘缺乏危害是指由于环境缺碘、机体摄碘不足所引起的地方性甲状腺..."
+                            android:textColor="@color/gray"
+                            android:textSize="13sp"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginRight="8dp"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@mipmap/oop2"
+                                android:scaleType="center"
+                                />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@mipmap/oop3"
+                                android:scaleType="center"
+                                />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@mipmap/oop1"
+                                android:scaleType="center"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_width="320dp"
+                android:layout_height="130dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@color/whitesmoke"
+                android:layout_gravity="center_horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="90dp"
+                        android:layout_height="130dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="3dp"
+                        app:cardBackgroundColor="@color/white"
+                        >
+
+                        <ImageView
+                            android:id="@+id/iv_2"
+                            android:layout_width="90dp"
+                            android:layout_height="130dp"
+                            android:background="@drawable/text_view_border_8"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/ff2"
+                            />
+
+
+                    </android.support.v7.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:paddingTop="8dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:text="鼓励更多适龄健康公民定期参加无偿献血"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:text="献血者日活动的主题是“献血和普及安全输血”，口号是“人人享有..."
+                            android:textColor="@color/gray"
+                            android:textSize="13sp"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginRight="8dp"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@mipmap/oop2"
+                                android:scaleType="center"
+                                />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@mipmap/oop3"
+                                android:scaleType="center"
+                                />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@mipmap/oop1"
+                                android:scaleType="center"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_width="320dp"
+                android:layout_height="130dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@color/whitesmoke"
+                android:layout_gravity="center_horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="90dp"
+                        android:layout_height="130dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="3dp"
+                        app:cardBackgroundColor="@color/white"
+                        >
+
+                        <ImageView
+                            android:id="@+id/iv_3"
+                            android:layout_width="90dp"
+                            android:layout_height="130dp"
+                            android:background="@drawable/text_view_border_8"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/ff3"
+                            />
+
+
+                    </android.support.v7.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:paddingTop="8dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:text="网售处方药屡禁不止 法律模糊仍待改善"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:text="近年来，越多的药贩子通过互联网进行处方药的销售，对病患的健康..."
+                            android:textColor="@color/gray"
+                            android:textSize="13sp"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginRight="8dp"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@mipmap/oop2"
+                                android:scaleType="center"
+                                />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@mipmap/oop3"
+                                android:scaleType="center"
+                                />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@mipmap/oop1"
+                                android:scaleType="center"
+                                />
+
+
+
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

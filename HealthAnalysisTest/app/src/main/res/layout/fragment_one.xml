@@ -1,0 +1,333 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.healthanalysistest.fragment.OneFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_width="320dp"
+                android:layout_height="130dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@color/whitesmoke"
+                android:layout_gravity="center_horizontal"
+                >
+                
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="90dp"
+                        android:layout_height="130dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="3dp"
+                        app:cardBackgroundColor="@color/white"
+                        >
+
+                        <ImageView
+                            android:id="@+id/iv_1"
+                            android:layout_width="90dp"
+                            android:layout_height="130dp"
+                            android:background="@drawable/text_view_border_8"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/news1"
+                            />
+
+
+                    </android.support.v7.widget.CardView>
+                    
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        >
+                        
+                        <TextView
+                            android:paddingTop="8dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:text="中美贸易战持续进行中，美国将中国出口货物税率调高到25%。"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:text="被加税的可能是科学仪器行业..."
+                            android:textColor="@color/gray"
+                            android:textSize="13sp"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginRight="8dp"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@mipmap/oop2"
+                                android:scaleType="center"
+                                />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@mipmap/oop3"
+                                android:scaleType="center"
+                                />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@mipmap/oop1"
+                                android:scaleType="center"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_width="320dp"
+                android:layout_height="130dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@color/whitesmoke"
+                android:layout_gravity="center_horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="90dp"
+                        android:layout_height="130dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="3dp"
+                        app:cardBackgroundColor="@color/white"
+                        >
+
+                        <ImageView
+                            android:id="@+id/iv_2"
+                            android:layout_width="90dp"
+                            android:layout_height="130dp"
+                            android:background="@drawable/text_view_border_8"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/news2"
+                            />
+
+
+                    </android.support.v7.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:paddingTop="8dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:text="西安收获今年首个优级天气，今年蓝天数已达70个。"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:text="西安市,宝鸡市,咸阳市的空气质量均为优..."
+                            android:textColor="@color/gray"
+                            android:textSize="13sp"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginRight="8dp"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@mipmap/oop2"
+                                android:scaleType="center"
+                                />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@mipmap/oop3"
+                                android:scaleType="center"
+                                />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@mipmap/oop1"
+                                android:scaleType="center"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_width="320dp"
+                android:layout_height="130dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@color/whitesmoke"
+                android:layout_gravity="center_horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="90dp"
+                        android:layout_height="130dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="3dp"
+                        app:cardBackgroundColor="@color/white"
+                        >
+
+                        <ImageView
+                            android:id="@+id/iv_3"
+                            android:layout_width="90dp"
+                            android:layout_height="130dp"
+                            android:background="@drawable/text_view_border_8"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/news3"
+                            />
+
+
+                    </android.support.v7.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:paddingTop="8dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:text="哈里王子与梅根王妃首次携子亮相。"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:text="哈里王子公布了他们的儿子的名字叫阿尔奇..."
+                            android:textColor="@color/gray"
+                            android:textSize="13sp"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_marginRight="8dp"
+                            >
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@mipmap/oop2"
+                                android:scaleType="center"
+                                />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@mipmap/oop3"
+                                android:scaleType="center"
+                                />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:src="@mipmap/oop1"
+                                android:scaleType="center"
+                                />
+
+
+
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+
+</FrameLayout>
